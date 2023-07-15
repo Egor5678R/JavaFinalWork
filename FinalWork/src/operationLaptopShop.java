@@ -11,8 +11,8 @@ public class operationLaptopShop {
         System.out.println();
         System.out.println("Полный каталог ноутбуков: ");
         System.out.println();
-        for (laptopShop note : notebooks) {
-            note.info();
+        for (laptopShop laptop : notebooks) {
+            laptop.info();
         }
     }
 
